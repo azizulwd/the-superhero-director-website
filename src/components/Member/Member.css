@@ -1,0 +1,10 @@
+.members li{
+    list-style: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+.members li:last-child{
+    border-bottom: 0;
+}

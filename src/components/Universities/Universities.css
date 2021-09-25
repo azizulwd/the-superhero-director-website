@@ -13,4 +13,9 @@
 }
 .right_sidebar{
     width: 15%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 2px gray;
 }

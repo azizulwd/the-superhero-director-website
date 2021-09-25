@@ -1,4 +1,5 @@
 import React from 'react';
+import './Member.css';
 
 const Member = (props) => {
     console.log(props);
@@ -11,9 +12,9 @@ const Member = (props) => {
 
 
     return (
-        <div>
-            <h3>Member Added: {members.length}</h3>
-            <h3>Total Cost: {totalBudget}</h3>
+        <div className="members">
+            <h4>Member Added: {members.length}</h4>
+            <h4>Total Cost: {totalBudget}</h4>
             <br/>
             <div>
                 {
