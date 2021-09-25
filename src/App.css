@@ -7,8 +7,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   font-family: 'Open Sans', sans-serif;
+  background: #f3eeee;
 }
 img{
   width: 100%;

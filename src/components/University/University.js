@@ -1,16 +1,20 @@
 import React from 'react';
+import './University.css';
 
 const University = (props) => {
     console.log(props.university);
 
     const {name, image, city, position, Budget} = props.university;
     return (
-        <div className="university">
-            <h1>{name}</h1>
+        <div className="single_university">
             <img src={image} alt="" />
-            <p><span style={{fontWeight: 'bold'}}>City: </span>{city}</p>
-            <p><span style={{fontWeight: 'bold'}}>Position: </span>{position}</p>
-            <p><span style={{fontWeight: 'bold'}}>Budget: </span>{Budget}</p>
+            <h2>{name}</h2>
+            <div className="univeristy_info">
+                <p><span style={{fontWeight: 'bold'}}>City: </span>{city}</p>
+                <p><span style={{fontWeight: 'bold'}}>Position: </span>{position} in Bangladesh</p>
+                <p><span style={{fontWeight: 'bold'}}>Budget: </span>{Budget}</p>
+            </div>
+            <button>Add University</button>
         </div>
     );
 };

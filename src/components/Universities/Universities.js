@@ -13,7 +13,7 @@ const Universities = () => {
 
     return (
         <div className="universities_container">
-            <div className="university_container">
+            <div className="university">
                 {
                     universities.map(university => <University
                         key={university.position} 
@@ -21,7 +21,10 @@ const Universities = () => {
                         ></University>)
                 }
             </div>
-            <div className="right_sidebar"></div>
+            <div className="right_sidebar">
+                <h3>Member Added:</h3>
+                <h3>Total Cost:</h3>
+            </div>
         </div>
     );
 };

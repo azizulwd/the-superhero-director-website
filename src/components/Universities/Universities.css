@@ -1,0 +1,16 @@
+.universities_container{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.university {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+.right_sidebar{
+    width: 15%;
+}
