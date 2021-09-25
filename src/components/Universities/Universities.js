@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import University from '../University/University';
 import './Universities.css';
 
 const Universities = () => {
@@ -14,7 +15,10 @@ const Universities = () => {
         <div className="universities_container">
             <div className="university_container">
                 {
-                    universities.map(university => console.log(university))
+                    universities.map(university => <University
+                        key={university.position} 
+                        university={university}
+                        ></University>)
                 }
             </div>
             <div className="right_sidebar"></div>
