@@ -2,7 +2,7 @@ import React from 'react';
 import './University.css';
 
 const University = (props) => {
-    console.log(props.university);
+    // console.log(props.university);
 
     const {name, image, city, position, Budget} = props.university;
     return (
@@ -14,7 +14,7 @@ const University = (props) => {
                 <p><span style={{fontWeight: 'bold'}}>Position: </span>{position} in Bangladesh</p>
                 <p><span style={{fontWeight: 'bold'}}>Budget: </span>{Budget}</p>
             </div>
-            <button>Add University</button>
+            <button onClick={()=> props.addedMemebrs(props.university)}>Add University</button>
         </div>
     );
 };
