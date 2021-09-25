@@ -1,0 +1,72 @@
+ [
+  {
+    "name": "University of Dhaka",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "position": 1,
+    "Budget": 8500
+  },
+  {
+    "name": "Bangladesh University of Engineering and Technology",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "position": 2,
+    "Budget": 2500
+  },
+  {
+    "name": "Rajshahi University",
+    "country": "Bangladesh",
+    "city": "Rajshahi",
+    "position": 3,
+    "Budget": 1500
+  },
+  {
+    "name": "Jahangirnagar University",
+    "country": "Bangladesh",
+    "city": "Savar",
+    "position": 4,
+    "Budget": 500
+  },
+  {
+    "name": "Islamic University",
+    "country": "Bangladesh",
+    "city": "Kustia",
+    "position": 5,
+    "Budget": 1200
+  },
+  {
+    "name": "University of Chittagong",
+    "country": "Bangladesh",
+    "city": "Chittagong",
+    "position": 6,
+    "Budget": 700
+  },
+  {
+    "name": "BRAC University",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "position": 7,
+    "Budget": 3300
+  },
+  {
+    "name": "Bangladesh Agricultural University",
+    "country": "Bangladesh",
+    "city": "Mymensingh",
+    "position": 8,
+    "Budget": 300
+  },
+  {
+    "name": "North South University",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "position": 9,
+    "Budget": 9900
+  },
+  {
+    "name": "Jagannath University",
+    "country": "Bangladesh",
+    "city": "Dhaka",
+    "position": 10,
+    "Budget": 200
+  }
+]
